@@ -6,6 +6,11 @@ name: xhs-snapshot
 description: "小红薯数据快照数据源（只读）：关键词搜笔记、爆款选题、笔记详情、评论舆情、博主作品、粉丝获赞与收藏，输出 JSON，不登录不发布。触发词：小红书、小红薯、xhs、rednote、笔记链接、博主主页、竞品监控、KOL筛选、评论分析。用户要查小红书笔记、评论、选题、竞品或舆情时使用；抖音、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.2.3
+display_name: "小红薯数据快照｜时点留档·涨粉回溯·版本对比·周期复盘"
+display_name_en: "Xiaohongshu Snapshot"
+description_zh: "小红薯数据快照数据源（只读）：关键词搜公开笔记（综合/最新/最多点赞/最多评论/最多收藏排序+时间筛选）、单条笔记详情、评论区批量拉取（可按近N天过滤）、博主作品列表与账号画像（limit 设 0 只取粉丝数/获赞数/收藏数等互动数据），全部以结构化 JSON 输出供 AI 直接留档分析。可选 --save 落盘到系统临时目录，便于按期存档与同比环比回溯。不登录小红书账号、不发布、不点赞、不评论、不关注，无封号风险。按量单次最多 10000 条；包月搜索最多 40、作品最多 30、评论最多 20（详情无条数限制），超限返回 PLAN_LIMIT。适用于时点留档、涨粉曲线回溯、笔记与账号版本对比、周期复盘取数、爆款选题库沉淀、竞品档案与评论舆情留痕。触发词：小红薯数据快照、小红书数据存档、历史数据回溯、xiaohongshu snapshot、rednote data archive。"
+description_en: "Read-only Xiaohongshu (RedNote) snapshot data source: keyword search over public notes (relevance/latest/most-liked/most-commented/most-collected sorting plus time-window filters), single-note details, batch comment retrieval with recent-N-days filtering, and creator post lists with profile stats (limit 0 returns follower/like/collect totals only), all as structured JSON for AI archiving and analysis. Optional --save writes dated copies to the system temp directory for month-over-month retention and follower-growth backtracking. No login, publishing, liking, commenting, or following, with no account-ban risk. Pay-per-use runs cap at 10,000 items; monthly plans cap search at 40, creator posts at 30 and comments at 20 (details uncapped), returning PLAN_LIMIT when exceeded. Ideal for point-in-time snapshots, follower-growth backtracking, version comparison of notes and accounts, periodic reviews, trending-topic libraries, competitor archives, and comment-sentiment records."
+author: "新郑市怪奇信息技术工作室"
 category: 数据分析
 homepage: https://www.guaikei.com
 metadata:
